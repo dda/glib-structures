@@ -1,0 +1,3 @@
+Provides access to GLib's data structures for integration into Real Studio code via RB Classes and a slightly modified version of glib-2.28.8. I might move the customized code to a separate dylib at a later point.
+
+Provided with the Real Studio source code: a compiled version of the customized glib and the modified source files if you wish to recompile glib yourself. So far the customization is limited to adding sort helper functions.
